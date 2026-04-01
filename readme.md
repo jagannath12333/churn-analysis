@@ -1,23 +1,15 @@
-# Customer Churn Analysis
 
+# Customer Churn Analysis
 
 ![Dashboard](visuals/dashboard.png)
 
 ## Project Overview
 
-This project analyzes customer churn behavior in a telecom dataset to identify key factors influencing customer retention.
+This project analyzes telecom customer churn using SQL, Python, and Power BI to identify patterns and reduce customer attrition.
 
 ---
 
-## Dataset
-
-* Telco Customer Churn Dataset
-* Approximately 7,000 customers
-* Features include tenure, contract type, payment method, charges, and churn status
-
----
-
-## Tools and Technologies
+## Tech Stack
 
 * SQL (MySQL)
 * Python (Pandas, Matplotlib, Seaborn)
@@ -26,46 +18,41 @@ This project analyzes customer churn behavior in a telecom dataset to identify k
 
 ---
 
-## Key Analysis
-
-### 1. SQL Analysis
-
-* Calculated overall churn rate (~26.5%)
-* Identified churn trends across contract types
-* Segmented customers by tenure groups
-* Detected high-risk customers
-
-### 2. Python Analysis
-
-* Data cleaning and preprocessing
-* Feature engineering (TenureGroup, ChurnNum)
-* Visualization of churn trends
-
-### 3. Power BI Dashboard
-
-* KPI cards: churn rate, total customers, churned customers
-* Bar chart: churn by contract type
-* Line chart: churn vs tenure
-* Donut chart: churn distribution
-
----
-
 ## Key Insights
 
-* Month-to-month contracts have the highest churn (~42%)
-* Customers in the first 12 months are most likely to churn
-* Electronic check users have higher churn compared to auto-payment users
+* Month-to-month contracts show highest churn (~42%)
+* Customers in first 12 months have highest churn (~47%)
+* Automatic payment methods reduce churn risk
 
 ---
 
-## Business Recommendations
+## Dashboard Features
 
-* Encourage long-term contracts
-* Improve onboarding experience for new customers
-* Promote automatic payment methods
+* KPI Cards (Churn Rate, Customers, Revenue)
+* Churn by Contract Type
+* Churn Trend by Tenure
+* Interactive filtering
 
 ---
 
-## Conclusion
+## Project Structure
 
-This project demonstrates end-to-end data analysis from SQL querying to dashboard visualization, providing actionable insights for reducing customer churn.
+data/ → dataset
+notebooks/ → Python analysis
+sql/ → SQL queries
+visuals/ → dashboard files
+
+---
+
+## Business Impact
+
+* Helps identify high-risk customers
+* Supports retention strategy decisions
+* Improves revenue stability
+
+---
+
+## Author
+
+jagannath iyer
+
