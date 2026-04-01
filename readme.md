@@ -1,5 +1,8 @@
 # Customer Churn Analysis
 
+
+![Dashboard](visuals/dashboard.png)
+
 ## Project Overview
 
 This project analyzes customer churn behavior in a telecom dataset to identify key factors influencing customer retention.
